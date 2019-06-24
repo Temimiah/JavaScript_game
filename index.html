@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Heading</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+
+  <body>
+    <h1>DRIVING SPEED</h1>
+
+    <div id="container">
+      <h4>How fast do you drive?</h4>
+      <p id="mileage">Please choose an option below the lights.</p>
+
+      <p id="furious" class="traffic_light"></p>
+      <p id="amber" class="traffic_light"></p>
+      <p id="green" class="traffic_light"></p>
+
+    </div>
+
+    <div id="options">
+      <button id="button1" class="button"> Over 75mph?</button>
+      <button id="button2" class="button"> Below 30mph?</button>
+      <button id="button3" class="button"> Between 40mph - 60mph</button>
+    </div>
+
+
+    <footer align="center">Tolu Akintola&copy; 24th July 2019</footer>
+
+    <script>
+      var x = "Careful Bonzo! You are a danger to yourself and the world around you!";
+      document.getElementById("button1").onclick = function() {
+        document.getElementById("furious").style.backgroundColor = "#e00e0e";
+        window.alert(x);
+      }
+      var y = "Com'on Miss Daisy, will you please get a move on and press those pedals? Thank you!"
+      document.getElementById("button2").onclick = function() {
+        document.getElementById("amber").style.backgroundColor = "#e09f0e";
+        window.alert(y);
+      }
+      var z = "Bet you're feeling smug now knowing your speed is just perfect!";
+      document.getElementById("button3").onclick = function() {
+        document.getElementById("green").style.backgroundColor = "rgb(0, 128, 0)";
+        window.alert(z);
+      }
+    </script>
+  </body>
+
+</html>

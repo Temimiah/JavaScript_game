@@ -1,0 +1,57 @@
+body {
+  background-color: #262424;
+  color: white;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+  margin: 20px 0 10px 7px;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: #5f7124;
+  margin-bottom: 5px;
+}
+
+#container {
+  margin: 10px auto;
+  width: 650px;
+  text-align: center;
+}
+
+#mileage {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.traffic_light {
+  background-color: #c6f0d3;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 8px;
+  position: relative;
+}
+
+.button {
+  margin: 0 5px 0 10px;
+  font-size: 15px;
+  background-color: #5f7124;
+  width: 200px;
+}
+
+#options {
+  width: 700px;
+  margin: 0px auto;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
